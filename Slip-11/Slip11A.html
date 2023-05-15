@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <form action="http://localhost:8080/servDb/servletDatabase" method="get">
+            Enter Roll No:<input type="text" name="t1">
+            <input type="submit">
+        </form>
+    </body>
+</html>
+
+pssql> create database stud;
+ 
+pssql> create table student(rollno int primary key,name text,percentage float);
+pssql> insert into student values(1,'student1',79);
+pssql> insert into student values(2,'student2',69);
+pssql> insert into student values(3,'student3',58);
+
+pssql> select * from student;

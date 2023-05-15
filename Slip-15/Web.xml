@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+
+<web-app> 
+    <servlet> 
+        <servlet-name>VisitServlet</servlet-name> 
+        <servlet-class>VisitServlet</servlet-class> 
+    </servlet> 
+
+    36<servlet-mapping> 
+        <servlet-name>VisitServlet</servlet-name> 
+        <url-pattern>/VS</url-pattern> 
+    </servlet-mapping> 
+</web-app>
